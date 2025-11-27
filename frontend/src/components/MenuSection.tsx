@@ -21,12 +21,12 @@ const MenuSection: React.FC = () => {
   ];
 
   return (
-    <section id='menu'>
+    <section id="menu">
       <h2 style={{ textAlign: 'center', marginBottom: 40 }}>Меню</h2>
-      <div className='menu-grid'>
-        <Card title='Кофе' items={coffee} />
-        <Card title='Десерты' items={desserts} />
-        <Card title='Напитки' items={drinks} />
+      <div className="menu-grid">
+        <Card title="Кофе" items={coffee} />
+        <Card title="Десерты" items={desserts} />
+        <Card title="Напитки" items={drinks} />
       </div>
     </section>
   );

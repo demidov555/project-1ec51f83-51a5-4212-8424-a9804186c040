@@ -6,11 +6,11 @@ const Hero: React.FC = () => {
   };
 
   return (
-    <section id='home' className='hero flex-center'>
-      <div className='hero-content'>
+    <section id="home" className="hero flex-center">
+      <div className="hero-content">
         <h1>Добро пожаловать в Уют</h1>
         <h2>Кофе, десерты и тёплая атмосфера</h2>
-        <button className='btn-primary' onClick={handleClick}>
+        <button className="btn-primary" onClick={handleClick}>
           Посмотреть меню
         </button>
       </div>

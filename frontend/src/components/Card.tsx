@@ -11,7 +11,7 @@ interface CardProps {
 }
 
 const Card: React.FC<CardProps> = ({ title, items }) => (
-  <div className='card'>
+  <div className="card">
     <h3>{title}</h3>
     <ul>
       {items.map(({ name, price }) => (
