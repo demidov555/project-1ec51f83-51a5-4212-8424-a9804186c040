@@ -1,0 +1,35 @@
+.header {
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  transition: background 0.3s, box-shadow 0.3s;
+  z-index: 10;
+}
+
+.header--scrolled {
+  background: var(--beige);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  color: var(--brown-dark);
+}
+
+.nav a {
+  margin-left: 24px;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.nav a:hover {
+  color: var(--brown);
+}

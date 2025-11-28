@@ -1,18 +1,17 @@
 import React from 'react';
+import './Hero.css';
+import ScrollLink from './ScrollLink';
 
 const Hero: React.FC = () => {
-  const handleClick = () => {
-    document.getElementById('menu')?.scrollIntoView({ behavior: 'smooth' });
-  };
-
   return (
-    <section id="home" className="hero flex-center">
-      <div className="hero-content">
+    <section id="hero" className="hero">
+      <div className="hero__overlay" />
+      <div className="hero__content">
         <h1>Добро пожаловать в Уют</h1>
-        <h2>Кофе, десерты и тёплая атмосфера</h2>
-        <button className="btn-primary" onClick={handleClick}>
-          Посмотреть меню
-        </button>
+        <p>Кофе, десерты и тёплая атмосфера</p>
+        <ScrollLink to="menu">
+          <button className="hero__button">Посмотреть меню</button>
+        </ScrollLink>
       </div>
     </section>
   );

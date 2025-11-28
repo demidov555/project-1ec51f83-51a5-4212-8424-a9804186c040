@@ -1,0 +1,30 @@
+.footer {
+  background: var(--brown);
+  color: #fff;
+  padding: 40px 0 0;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer__socials a {
+  margin-right: 16px;
+  color: #fff;
+  transition: opacity 0.3s;
+}
+
+.footer__socials a:hover {
+  opacity: 0.7;
+}
+
+.footer__copy {
+  text-align: center;
+  padding: 16px 0;
+  margin-top: 24px;
+  background: var(--brown-dark);
+  font-size: 14px;
+}
